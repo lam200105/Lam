@@ -1,0 +1,6 @@
+# Another version of fixed size array (conceptual)
+stack_array = [1, 2, 3, 4, 8]
+
+print("Fixed Stack Dynamic Array in Python:")
+for index, value in enumerate(stack_array):
+    print(f"Element {index}: {value}")

@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Fixed-size stack array of 5 integers
+    int values[5] = {1, 2, 3, 4, 8};
+
+    cout << "Fixed Stack Dynamic Array in C++:" << endl;
+    for (int index = 0; index < 5; index++) {
+        cout << "Element " << index << ": " << values[index] << endl;
+    }
+
+    return 0;
+}

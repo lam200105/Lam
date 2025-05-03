@@ -1,0 +1,11 @@
+elements = []
+size = int(input("Enter number of elements: "))
+
+print(f"Enter {size} elements:")
+for index in range(size):
+    num = int(input(f"Element {index}: "))
+    elements.append(num)  # Dynamically adds elements
+
+print("Heap Dynamic Array in Python:")
+for idx, val in enumerate(elements):
+    print(f"Element {idx}: {val}")
